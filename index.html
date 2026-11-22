@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương 3: Tiệm Bánh Ngọt (JS & jQuery)</title>
+    <link rel="stylesheet" href="c3.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>🍰 Sweet Bakery</h1>
+        <div class="cart-box">Giỏ hàng: <span id="cart-count">0</span> bánh</div>
+    </header>
+
+    <main class="container">
+        <h2>Menu Bánh Hôm Nay</h2>
+        <div class="product-grid">
+            <article class="product-card">
+                <img src="bkscl.png" alt="Bánh Kem Socola">
+                <h3>Bánh Kem Socola</h3>
+                <p class="price">250.000đ</p>
+                <button type="button" class="add-to-cart" data-name="Bánh Kem Socola">Thêm vào giỏ</button>
+            </article>
+
+            <article class="product-card">
+                <img src="bsb.png" alt="Bánh Sừng Bò">
+                <h3>Bánh Sừng Bò Bơ Pháp</h3>
+                <p class="price">45.000đ</p>
+                <button type="button" class="add-to-cart" data-name="Bánh Sừng Bò Bơ Pháp">Thêm vào giỏ</button>
+            </article>
+
+            <article class="product-card">
+                <img src="cc.png" alt="Bánh Cupcake Dâu">
+                <h3>Cupcake Kem Dâu Tây</h3>
+                <p class="price">55.000đ</p>
+                <button type="button" class="add-to-cart" data-name="Cupcake Kem Dâu Tây">Thêm vào giỏ</button>
+            </article>
+        </div>
+    </main>
+
+    
+    <div id="toast-msg"></div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
